@@ -8,4 +8,8 @@ class CalculatorTest {
         Calculator calculator=new Calculator();
         assertEquals(3 ,calculator.sum(1.0,2.0));
     }
+    public void abs() throws Exception
+    {
+        assertEquals(5 ,Math.abs(-5));
+    }
 }
