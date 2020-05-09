@@ -14,4 +14,15 @@ class CalculatorTest {
         assertEquals(5 ,Math.abs(-5));
     }
 
+    @org.junit.jupiter.api.Test
+    public void addExact() throws Exception
+    {
+        assertEquals(5 , Math.addExact(-5,10));
+    }
+
+    @org.junit.jupiter.api.Test
+    public void floorDiv() throws Exception
+    {
+        assertEquals(-1 ,Math.floorDiv(-5,5));
+    }
 }
